@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 232, 128);
+    /* background-color: rgb(248, 248, 157); */
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* calculator body  */
+.calculator-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(92, 90, 90);
+    margin:20px;
+    height: 420px;
+    width: 400px;
+    position: relative;
+    border-radius:10px;
+    border-right:5px solid rgb(63, 63, 63);
+    border-left:5px solid rgb(63, 63, 63);
+    border-bottom:13px solid rgb(63, 63, 63);
+    border-top:13px solid rgb(63, 63, 63);
+
+  }
+
+  .compdiv{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Screen Components  */
+  .display{
+    width:100%;
+    height:70px;
+    border-radius:16px;
+    background-color:rgb(247, 248, 155);
+    /* background-color:rgba(236, 243, 135, 0.87); */
+
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    overflow: hidden;
+}
+.display h1{
+    margin-right:20px;
+    font-size:50px;
+    font-weight:300;
+}
+
+/* Button component  */
+.button{
+    height:60px;
+    width:80px;
+    border-radius:10px;
+    background-color:white;
+    border:none;
+    box-shadow:2px 5px rgb(63, 63, 63);
+}
+.button:hover{
+    background-color:#f0eeeb;
+}
+.button:active{
+    transform:translateY(2px);
+    box-shadow:1px 2px black;
+}
+.buttondiv{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.buttonRow{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* This section of code was for the shadow effect on calculator..please ignore this */
+  /* .calculator-body:after,
+  .calculator-body:before {
+    content: '';
+    background: rgb(161, 153, 75);
+    position: absolute;
+  }
+  .calculator-body:after {
+    width: 110%;
+    height: 100px;
+    left: 52px;
+    bottom: 0px;
+    transform: translatey(110%) skewx(45deg);
+  }
+  .calculator-body:before {
+    width: 100%;
+    height: 105%;
+    right: 0;
+    transform: translatex(101%) skewy(45deg);
+    top: 205px;
+  } */
