@@ -1,3 +1,5 @@
+# No External library is used for the calculation logic,simple for loop does the job,see the source code and try adding new functionalities.(Add a reset button).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
