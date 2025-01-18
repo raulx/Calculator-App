@@ -108,7 +108,7 @@ body{
 }
 
 /* This section of code was for the shadow effect on calculator..please ignore this */
-  /* .calculator-body:after,
+   .calculator-body:after,
   .calculator-body:before {
     content: '';
     background: rgb(161, 153, 75);
@@ -119,12 +119,12 @@ body{
     height: 100px;
     left: 52px;
     bottom: 0px;
-    transform: translatey(110%) skewx(45deg);
+    transform: translateY(110%) skewx(45deg);
   }
   .calculator-body:before {
     width: 100%;
     height: 105%;
     right: 0;
-    transform: translatex(101%) skewy(45deg);
+    transform: translateX(101%) skewy(45deg);
     top: 205px;
-  } */
+  } 
